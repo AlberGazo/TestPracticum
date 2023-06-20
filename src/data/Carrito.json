@@ -1,0 +1,58 @@
+{
+  "BotonComprar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='button'][contains(.,'Place Order')]"
+  },
+  "Name": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='name']"
+  },
+  "Pais": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@id,'country')]"
+  },
+  "Ciudad": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@id,'city')]"
+  },
+  "TarjetaCredito": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@id,'card')]"
+  },
+  "Mes": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@id,'month')]"
+  },
+  "Year": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[contains(@id,'year')]"
+  },
+  "BotonPurchase": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='button'][contains(.,'Purchase')]"
+  },
+  "MensajeEsperado": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h2[contains(.,'Thank you for your purchase!')]"
+  },
+  "BotonOK": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@class='confirm btn btn-lg btn-primary'][contains(.,'OK')]"
+  },
+  "CorreoElectronico": {
+    "GetFieldBy": "Id",
+    "ValueToFind": "recipient-email"
+  },
+  "TextBoxNombre": {
+    "GetFieldBy": "Id",
+    "ValueToFind": "recipient-name"
+  },
+  "Mensaje": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//textarea[contains(@class,'form-control')]"
+  },
+  "EnviarMensaje": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='button'][contains(.,'Send message')]"
+  }
+}
